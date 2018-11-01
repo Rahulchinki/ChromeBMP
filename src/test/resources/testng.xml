@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BrowserMob">
+	<test name="Test">
+		<classes>
+			<class name="BOMChrome" >
+			<methods >
+			<include name ="testCaseOne"/>
+			
+			</methods>
+			
+			</class>
+		</classes>
+	</test>
+</suite>
